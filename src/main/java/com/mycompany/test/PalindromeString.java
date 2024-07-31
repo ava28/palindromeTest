@@ -10,7 +10,6 @@ package com.mycompany.test;
  */
 public class PalindromeString {
     public static boolean isPalindrome(String word){
-        char[] letter = new char[word.length()];
         int count=word.length() - 1;
         for(int i=0; i< word.length(); i++){
             if(word.charAt(i)!=word.charAt(count)){
